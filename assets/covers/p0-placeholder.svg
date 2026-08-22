@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1000" viewBox="0 0 1700 1000">
+  <rect width="1700" height="1000" fill="#0A2A75"/>
+  <rect x="60" y="60" width="1580" height="880" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="3" stroke-dasharray="18 14" rx="24"/>
+  <text x="850" y="480" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="72" letter-spacing="14" fill="rgba(255,255,255,0.85)">NEW PROJECT</text>
+  <text x="850" y="565" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="34" letter-spacing="10" fill="rgba(255,255,255,0.45)">新项目 · 敬请期待</text>
+</svg>

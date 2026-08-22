@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>yuxuan’s portfolio</title>
+  <meta name="description" content="品牌与数字设计作品集" />
+  <link rel="icon" href="/assets/logo2-BlZbD7au.png" type="image/png" />
+  <link rel="preload" href="/assets/adaptive-BWbb4rbN.woff2" as="font" type="font/woff2" crossorigin />
+  <style>
+    /* 首屏防闪白：字体和 CSS 加载前就铺上深色背景 */
+    html, body { margin: 0; background: #101014; }
+  </style>
+  <script type="module" crossorigin src="/assets/index-a7l-IKzS.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/three-BfOEjGK0.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-DUm42e5t.css">
+</head>
+<body>
+  <!-- 层叠隔离容器：蓝底 + 背景网格 canvas + 页面内容都在这里面 -->
+  <div class="app-blend-scope" id="app">
+    <!-- 全局上下渐变遮罩：仅蓝底页面（非 ring 视图）显示，见 base.css -->
+    <div class="page-fade page-fade--top" aria-hidden="true"></div>
+    <div class="page-fade page-fade--bottom" aria-hidden="true"></div>
+  </div>
+</body>
+</html>
