@@ -232,7 +232,7 @@ void main() {
         <h1 class="rs-hero__name">${x(o.name)}</h1>
         <p class="rs-hero__role">${E}</p>
         ${o.contact.email?`<p class="rs-hero__contact"><span class="rs-hero__label">${P("emailLabel")}：</span><a class="rs-hero__mail" href="mailto:${o.contact.email}">${o.contact.email}</a></p>`:""}
-        ${o.contact.wechat?`<p class="rs-hero__contact"><span class="rs-hero__label">${P("wechatLabel")}：</span>${o.contact.wechat}</p>`:""}
+        ${o.contact.wechat?`<p class="rs-hero__contact"><span class="rs-hero__label">${P("wechatLabel")}：</span><span class="rs-hero__wechat">${o.contact.wechat}</span></p>`:""}
         ${x(o.intro)?`<p class="rs-hero__intro">${x(o.intro)}</p>`:""}
       </header>
 
